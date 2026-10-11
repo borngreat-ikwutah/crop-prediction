@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "[ -f venv/bin/python ] && venv/bin/python app.py || python3 app.py",
+    "start": "[ -f venv/bin/python ] && venv/bin/python app.py || python3 app.py",
+    "train": "[ -f venv/bin/python ] && venv/bin/python training/train.py || python3 training/train.py",
+    "prepare-data": "[ -f venv/bin/python ] && venv/bin/python training/prepare_data.py || python3 training/prepare_data.py"
+  }
+}

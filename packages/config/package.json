@@ -1,0 +1,12 @@
+{
+  "name": "@crop-prediction/config",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": "./index.js",
+    "./tsconfig.base.json": "./tsconfig.base.json"
+  }
+}
